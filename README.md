@@ -4,7 +4,7 @@ REL-ID is a secure mobile identity platform that provides seamless authenticatio
 
 ## 💻 Requirements
 
-- [React Native development environment](https://docs.flutter.dev/get-started)
+- [Flutter development environment](https://docs.flutter.dev/get-started)
 
 ## 🧬 Codelabs
 
