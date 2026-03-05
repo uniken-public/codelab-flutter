@@ -95,6 +95,12 @@ class RdnaService {
   /// Loads the connection profile from assets, extracts connection details,
   /// and initializes the SDK with the required parameters.
   ///
+  /// ## Parameters
+  /// - `initOptions`: Optional configuration for SDK initialization.
+  ///   If not provided, default values are used:
+  ///   - Language: Empty (SDK defaults to 'en'), LTR direction
+  ///   - Permissions: Location required but not mandatory
+  ///
   /// ## Returns
   /// RDNASyncResponse containing sync response (may have error or success)
   ///
@@ -110,7 +116,23 @@ class RdnaService {
   ///
   /// ## Example
   /// ```dart
+  /// // Basic initialization
   /// final syncResponse = await rdnaService.initialize();
+  ///
+  /// // Advanced initialization with custom configuration
+  /// final syncResponse = await rdnaService.initialize(
+  ///   RDNAInitOptions(
+  ///     internationalizationOptions: RDNAinternationalizationOptions(
+  ///       localeCode: 'ar',
+  ///       localeName: 'Arabic',
+  ///       languageDirection: 1  // RTL
+  ///     ),
+  ///     permissionOptions: RDNAPermissionOptions(
+  ///       isLocationPermissionRequired: true,
+  ///       isLocationPermissionMandatory: false
+  ///     )
+  ///   )
+  /// );
   ///
   /// if (syncResponse.error?.longErrorCode == 0) {
   ///   print('Sync success, waiting for async events');
@@ -118,7 +140,7 @@ class RdnaService {
   ///   print('Sync error: ${syncResponse.error?.errorString}');
   /// }
   /// ```
-  Future<RDNASyncResponse> initialize() async {
+  Future<RDNASyncResponse> initialize([RDNAInitOptions? initOptions]) async {
     final profile = await loadAgentInfo();
     print('RdnaService - Loaded connection profile:');
     print('  Host: ${profile.host}');
@@ -126,6 +148,34 @@ class RdnaService {
     print('  RelId: ${profile.relId.substring(0, 10)}...');
 
     print('RdnaService - Starting initialization');
+
+    // If no initOptions provided, use default values
+    // Default configuration:
+    // - Language: Empty (SDK defaults to 'en'), LTR direction
+    // - Permissions: Location required but not mandatory
+    // - Telemetry: Disabled (disableTrace: 1)
+    final defaultInitOptions = RDNAInitOptions(
+      internationalizationOptions: RDNAinternationalizationOptions(
+        localeCode: '',           // Empty string - SDK will default to 'en'
+        localeName: '',
+        languageDirection: 0      // 0 = LTR (Left-to-Right)
+      ),
+      permissionOptions: RDNAPermissionOptions(
+        isLocationPermissionRequired: true,    // Location permission is requested
+        isLocationPermissionMandatory: false   // But SDK can work without it
+      ),
+      otelConfig: RDNAOtelConfig(
+        otelHTTPEndpointURL: '',
+        enableEncoding: '',
+        disableTrace: 1,                       // Tracing disabled by default
+        otelTraceFlushTimeout: 0
+      ),
+    );
+
+    // Use provided options or defaults
+    final finalInitOptions = initOptions ?? defaultInitOptions;
+
+    print('RdnaService - InitOptions: ${finalInitOptions.toJson()}');
 
     // ✅ Call plugin without redundant try-catch
     final response = await _rdnaClient.initialize(
@@ -137,6 +187,7 @@ class RdnaService {
       null, // proxySettings: Proxy configuration (optional)
       null, // rdnaSSLCertificate: SSL certificate configuration (optional)
       RDNALoggingLevel.RDNA_NO_LOGS, // logLevel: Logging level (use RDNA_NO_LOGS in production)
+      finalInitOptions, // initOptions: Advanced SDK configuration (optional)
     );
 
     print('RdnaService - Initialize sync response received');
