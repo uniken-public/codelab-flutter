@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="MTD_JAIL_BROKEN_ANDROID">रूट किया गया डिवाइस|##|यह डिवाइस रूट किया गया है।</string>
+    <string name="MTD_OUT_OF_DATE_OS">पुराना OS|##|डिवाइस असुरक्षित है, OS पुराना हो गया है।</string>
+    <string name="MTD_SCREEN_PASS_CODE_NOT_PRESENT">स्क्रीन पासकोड मौजूद नहीं|##|डिवाइस असुरक्षित है, पासकोड चालू नहीं है।</string>
+    <string name="MTD_UNKNOWN_SOURCE_INSTALLATION">अज्ञात स्रोत इंस्टॉलेशन|##|डिवाइस असुरक्षित है, अज्ञात स्रोत इंस्टॉलेशन चालू है।</string>
+    <string name="MTD_UNKNOWN_SOURCE_INSTALLATION_WPN">अज्ञात स्रोत इंस्टॉलेशन|##|__APP_PACKAGE__ पैकेज नाम वाला ऐप असुरक्षित ऐप इंस्टॉल करने की अनुमति दे सकता है।</string>
+    <string name="MTD_UNKNOWN_SOURCE_INSTALLATION_WOPN">अज्ञात स्रोत इंस्टॉलेशन|##|डिवाइस असुरक्षित है, अज्ञात स्रोत से इंस्टॉलेशन की अनुमति है।</string>
+    <string name="MTD_USB_DEBUGGING_ENABLED">USB डीबगिंग|##|डिवाइस असुरक्षित है, USB डीबगिंग चालू है।</string>
+    <string name="MTD_DEV_MODE_ENABLED">डेवलपर विकल्प|##|डिवाइस असुरक्षित है, डेवलपर विकल्प चालू है।</string>
+    <string name="MTD_DEVICE_ENCRYPTED">डिवाइस एन्क्रिप्टेड है|##|डिवाइस एन्क्रिप्टेड नहीं है।</string>
+    <string name="MTD_SE_LINUX_SECURITY">SELinux अक्षम है|##|डिवाइस असुरक्षित है, SELinux सुरक्षा अक्षम है।</string>
+    <string name="MTD_DEVICE_ACCESSIBILITY_OPTION">डिवाइस सुलभता विकल्प|##|डिवाइस असुरक्षित है, सुलभता विकल्प चालू है।</string>
+    <string name="MTD_DEVICE_ACCESSIBILITY_OPTION_WPN">डिवाइस सुलभता विकल्प|##|डिवाइस असुरक्षित है, __APP_PACKAGE__ पैकेज नाम के लिए सुलभता विकल्प चालू है।</string>
+    <string name="MTD_GENERIC_SYSTEM_THREAT">सिस्टम खतरा|##|सिस्टम खतरा पता चला है।</string>
+    <string name="MTD_SYSTEM_EVENT">सिस्टम इवेंट|##|सिस्टम इवेंट खतरा पता चला है।</string>
+    <string name="MTD_SAFETY_NET_MISSING">सेफ्टी नेट गायब है|##|सेफ्टी नेट गायब है।</string>
+    <string name="MTD_PHA_DISABLED">PHA अक्षम है|##|संभावित रूप से हानिकारक एप्लिकेशन से सुरक्षा अक्षम है।</string>
+
+    <string name="MTD_APP_TAMPERED">ऐप से छेड़छाड़|##|यह ऐप से छेड़छाड़ की गई है और आगे बढ़ना सुरक्षित नहीं है।</string>
+    <string name="MTD_EMULATED_ENVIRONMENT">एमुलेटेड वातावरण|##|एप्लिकेशन एमुलेटेड वातावरण में चल रहा है।</string>
+    <string name="MTD_APP_REPACKAGED">रीपैकेज किया गया ऐप|##|__APP_PACKAGE__ पैकेज नाम वाला ऐप रीपैकेज किया गया है।</string>
+    <string name="MTD_MALWARE">मालवेयर ऐप|##|__APP_PACKAGE__ पैकेज नाम वाला ऐप दुर्भावनापूर्ण हो सकता है।</string>
+    <string name="MTD_THIRD_PARTY_STORES">तीसरा पक्ष स्टोर|##|__APP_PACKAGE__ पैकेज नाम वाला तीसरा पक्ष स्टोर पता चला है।</string>
+    <string name="MTD_DEVICE_ADMIN_LIST_WPN">डिवाइस एडमिन सूची|##|असुरक्षित डिवाइस एडमिन ऐप __APP_PACKAGE__ पता चला है।</string>
+    <string name="MTD_DEVICE_ADMIN_LIST">डिवाइस एडमिन सूची|##|असुरक्षित डिवाइस एडमिन ऐप पता चला है।</string>
+    <string name="MTD_APP_BLACK_LIST">ब्लैकलिस्ट किया गया ऐप|##|ब्लैकलिस्ट किया गया एप्लिकेशन पता चला है।</string>
+    <string name="MTD_APP_BLACK_LIST_WPN">ब्लैकलिस्ट किया गया ऐप|##|__APP_PACKAGE__ पैकेज नाम वाला ऐप ब्लैकलिस्ट किया गया है।</string>
+    <string name="MTD_APP_FROM_UNKNOWN_SOURCE">अज्ञात स्रोत से ऐप|##|अज्ञात स्रोतों से ऐप्स पता चले हैं।</string>
+    <string name="MTD_APP_FROM_UNKNOWN_SOURCE_WPN">अज्ञात स्रोत से ऐप|##|__APP_PACKAGE__ पैकेज नाम वाला ऐप अज्ञात स्रोत से इंस्टॉल किया गया है।</string>
+
+    <string name="MTD_NETWORK_MITM">नेटवर्क MITM|##|कनेक्टेड नेटवर्क पर MITM (मैन-इन-द-मिडिल) पता चला है।</string>
+    <string name="MTD_ROUGE_WIFI">रोग नेटवर्क|##|कनेक्टेड नेटवर्क पर रोग वाईफाई पता चला है।</string>
+    <string name="MTD_PINEAPPLE_WIFI">पाइनएप्पल वाईफाई|##|कनेक्टेड नेटवर्क पर पाइनएप्पल वाईफाई पता चला है।</string>
+    <string name="MTD_CAPTIVE_PORTAL">कैप्टिव पोर्टल|##|कनेक्टेड नेटवर्क पर कैप्टिव पोर्टल पता चला है।</string>
+    <string name="MTD_NETWORK_SSL_STRIPPING">नेटवर्क SSL स्ट्रिपिंग|##|कनेक्टेड नेटवर्क पर SSL स्ट्रिपिंग पता चला है।</string>
+    <string name="MTD_NETWORK_CONTENT_MANIPULATION">नेटवर्क सामग्री हेरफेर|##|कनेक्टेड नेटवर्क पर सामग्री हेरफेर पता चला है।</string>
+    <string name="MTD_WIFI_CONNECTION">ब्लैकलिस्ट किया गया नेटवर्क|##|कनेक्टेड वाईफाई नेटवर्क असुरक्षित है। यह नेटवर्क एंटरप्राइज द्वारा ब्लैकलिस्ट किया गया है।</string>
+    <string name="MTD_UNSECURE_WIFI">असुरक्षित एक्सेस पॉइंट|##|डिवाइस खुले या असुरक्षित वाईफाई से कनेक्टेड है।</string>
+    <string name="MTD_VPN_CONNECTION">VPN कनेक्शन|##|इस डिवाइस पर एक VPN कनेक्शन पता चला है।</string>
+    <string name="MTD_MALICIOUS_IP">दुर्भावनापूर्ण IP|##|दुर्भावनापूर्ण IP पता चला है।</string>
+    <string name="MTD_FAKE_SSL_CERTIFICATES">फर्जी SSL सर्टिफिकेट|##|फर्जी SSL सर्टिफिकेट पता चला है।</string>
+    <string name="MTD_FAKE_CORPORATE_WIFI">फर्जी कॉर्पोरेट वाईफाई|##|फर्जी कॉर्पोरेट वाईफाई पता चला है।</string>
+    <string name="MTD_GENERIC_NETWORK_THREAT">नेटवर्क खतरा|##|नेटवर्क खतरा पता चला है।</string>
+    <string name="MTD_GENERIC_NETWORK_THREAT_SSID">नेटवर्क खतरा|##|__NETWORK_SSID__ पर नेटवर्क खतरा पता चला है।</string>
+
+    <string name="MTD_REMOTE_ACCESS">स्क्रीन रिकॉर्डिंग|##|डिवाइस की स्क्रीन कैप्चर और रिकॉर्ड की जा रही हो सकती है।</string>
+    <string name="MTD_EXTERNAL_DISPLAY">बाहरी डिस्प्ले|##|बाहरी डिस्प्ले पता चला है।</string>
+</resources>

@@ -1,0 +1,37 @@
+/*
+ * MTDLocalizable.strings
+ * RELIDXCFramework
+ *
+ * Created on 01/11/2025
+ * Copyright © 2025 Uniken. All rights reserved.
+ *
+ * This file contains localized strings for MTD (Mobile Threat Detection)
+ * and Rel_ID (Authentication) sections used in RELIDXCFramework.
+ *
+ * These strings will be used with fallback from IL Language Messages JSON.
+ */
+
+// ============================================
+// MARK: - MTD (Mobile Threat Detection)
+// ============================================
+
+"MTD_JAIL_BROKEN_iOS" = "रूटेड डिवाइस |##| डिवाइस जेलब्रोकन है।";
+"MTD_OUT_OF_DATE_OS" = "ओएस पुराना |##| डिवाइस असुरक्षित है, ओएस पुराना है।";
+"MTD_SCREEN_PASS_CODE_NOT_PRESENT" = "स्क्रीन पासकोड मौजूद नहीं |##| डिवाइस असुरक्षित है, पासकोड सक्षम नहीं है।";
+"MTD_APP_TAMPERED" = "ऐप के साथ छेड़छाड़ |##| इस ऐप के साथ छेड़छाड़ की गई है और आगे बढ़ना सुरक्षित नहीं है।";
+"MTD_SCREEN_SHOT_CAPTURED" = "स्क्रीनशॉट कैप्चर किया गया |##| उपयोगकर्ता ने एक स्क्रीनशॉट लिया।";
+"MTD_REMOTE_ACCESS" = "स्क्रीन रिकॉर्डिंग |##| डिवाइस स्क्रीन कैप्चर और रिकॉर्ड की जा रही हो सकती है।";
+"MTD_EMULATED_ENVIRONMENT" = "एम्युलेटेड वातावरण |##| एप्लिकेशन एक एम्युलेटेड वातावरण में चल रहा है।";
+"MTD_GENERIC_SYSTEM_THREAT" = "सिस्टम खतरा|##|सिस्टम खतरा का पता चला है।";
+"MTD_NETWORK_MITM" = "नेटवर्क MITM |##| जुड़े हुए नेटवर्क पर MITM का पता चला है।";
+"MTD_ROUGE_WIFI" = "रोग नेटवर्क |##| जुड़े हुए नेटवर्क पर रोग वाईफाई का पता चला है।";
+"MTD_PINEAPPLE_WIFI" = "पाइनएप्पल वाईफाई |##| जुड़े हुए नेटवर्क पर पाइनएप्पल वाईफाई का पता चला है।";
+"MTD_CAPTIVE_PORTAL" = "कैप्टिव पोर्टल |##| जुड़े हुए नेटवर्क पर कैप्टिव पोर्टल का पता चला है।";
+"MTD_NETWORK_SSL_STRIPPING" = "नेटवर्क SSL स्ट्रिपिंग |##| जुड़े हुए नेटवर्क पर SSL स्ट्रिपिंग का पता चला है।";
+"MTD_NETWORK_CONTENT_MANIPULATION" = "नेटवर्क सामग्री हेरफेर |##| जुड़े हुए नेटवर्क पर सामग्री हेरफेर का पता चला है।";
+"MTD_WIFI_CONNECTION" = "ब्लैकलिस्टेड नेटवर्क |##| जुड़ा हुआ वाईफाई नेटवर्क असुरक्षित है। यह नेटवर्क एंटरप्राइज द्वारा ब्लैकलिस्टेड है।";
+"MTD_UNSECURE_WIFI" = "असुरक्षित एक्सेस प्वाइंट |##| डिवाइस खुले या असुरक्षित वाईफाई से जुड़ा हुआ है।";
+"MTD_VPN_CONNECTION" = "VPN कनेक्शन |##| इस डिवाइस पर एक VPN कनेक्शन का पता चला है।";
+"MTD_GENERIC_NETWORK_THREAT" = "नेटवर्क खतरा|##|नेटवर्क खतरा का पता चला है";
+"MTD_GENERIC_NETWORK_THREAT_SSID" = "नेटवर्क खतरा|##|__NETWORK_SSID__ पर नेटवर्क खतरा का पता चला है";
+"MTD_ACTIVE_CALL_DETECTED" = "एक्टिव कॉल डिटेक्ट हुआ |##| आपके डिवाइस पर एक एक्टिव कॉल डिटेक्ट हुआ है।";

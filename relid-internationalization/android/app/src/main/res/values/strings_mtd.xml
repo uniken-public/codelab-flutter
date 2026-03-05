@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="MTD_JAIL_BROKEN_ANDROID">Rooted Device|##|Device is rooted</string>
+        <string name="MTD_OUT_OF_DATE_OS">OS Outdated|##|Device is insecure, OS is outdated.</string>
+        <string name="MTD_SCREEN_PASS_CODE_NOT_PRESENT">Screen Passcode Not Present|##|Device is insecure, passcode not enabled.</string>
+        <string name="MTD_APP_TAMPERED">App Tampering|##|This app is tampered and not safe to proceed.</string>
+        <string name="MTD_REMOTE_ACCESS">Screen Recording|##|The device screen might be getting captured and recorded.</string>
+        <string name="MTD_EMULATED_ENVIRONMENT">Emulated Environment|##|The application is running in an emulated environment.</string>
+        <string name="MTD_GENERIC_SYSTEM_THREAT">System Threat|##|System Threat is detected.</string>
+        <string name="MTD_NETWORK_MITM">Network MITM|##|MITM is detected on connected network.</string>
+        <string name="MTD_ROUGE_WIFI">Rogue Network|##|Rouge WiFi detected on connected network.</string>
+        <string name="MTD_PINEAPPLE_WIFI">Pineapple Wifi|##|Pineapple WiFi detected on connected network.</string>
+        <string name="MTD_CAPTIVE_PORTAL">Captive Portal|##|Captive portal is detected on connected network.</string>
+        <string name="MTD_NETWORK_SSL_STRIPPING">Network SSL Stripping|##|SSL stripping is detected on connected network.</string>
+        <string name="MTD_NETWORK_CONTENT_MANIPULATION">Network Content Manipulation|##|Content manipulation detected on connected network.</string>
+        <string name="MTD_WIFI_CONNECTION">Blacklisted Network|##|Connected wifi network is insecure. This network is blacklisted by the enterprise.</string>
+        <string name="MTD_UNSECURE_WIFI">Unsecured Access Point|##|Device is connected to open or unsecure WiFi.</string>
+        <string name="MTD_VPN_CONNECTION">VPN Connection|##|A VPN connection has been detected on this device.</string>
+        <string name="MTD_GENERIC_NETWORK_THREAT">Network Threat|##|Network Threat is detected</string>
+        <string name="MTD_GENERIC_NETWORK_THREAT_SSID">Network Threat|##|Network Threat is detected on __NETWORK_SSID__</string>
+        <string name="MTD_APP_REPACKAGED">Repacked App|##|The app with the package name __APP_PACKAGE__ is repackaged.</string>
+        <string name="MTD_MALWARE">Malware App|##|The app with the package name __APP_PACKAGE__ could be malicious.</string>
+        <string name="MTD_MALICIOUS_IP">MALICIOUS IP|##|Malicious IP detected</string>
+        <string name="MTD_UNKNOWN_SOURCE_INSTALLATION">Unknown Source Installation|##|Device is insecure, unknown source installation is turned on.</string>
+        <string name="MTD_UNKNOWN_SOURCE_INSTALLATION_WPN">Unknown Source Installation|##|The app with the package name __APP_PACKAGE__ may allow installation of unsafe apps.</string>
+        <string name="MTD_UNKNOWN_SOURCE_INSTALLATION_WOPN">Unknown Source Installation|##|Device is insecure, installation from unknown source is allowed.</string>
+        <string name="MTD_USB_DEBUGGING_ENABLED">Usb Debuging|##|Device is insecure, usb debugging is enabled.</string>
+        <string name="MTD_DEV_MODE_ENABLED">Developer Options|##|Device is insecure, developer option is enabled.</string>
+        <string name="MTD_FAKE_SSL_CERTIFICATES">Fake SSL Certificate|##|Fake SSL certificate detected.</string>
+        <string name="MTD_THIRD_PARTY_STORES">Third Party Store|##|Third party store with package name __APP_PACKAGE__ is detected.</string>
+        <string name="MTD_DEVICE_ADMIN_LIST_WPN">Device Admin List|##|Unsafe device admin app __APP_PACKAGE__ detected..</string>
+        <string name="MTD_DEVICE_ADMIN_LIST">Device Admin List|##|Unsafe device admin app detected..</string>
+        <string name="MTD_DEVICE_ENCRYPTED">Device Encrypted|##|Device is not encrypted.</string>
+        <string name="MTD_APP_BLACK_LIST">Blacklisted App|##|Blacklisted application detected.</string>
+        <string name="MTD_APP_BLACK_LIST_WPN">Blacklisted App|##|App with package name __APP_PACKAGE__ is blacklisted.</string>
+        <string name="MTD_SYSTEM_EVENT">SYSTEM EVENT|##|System event threat detected.</string>
+        <string name="MTD_SE_LINUX_SECURITY">SELinux Disabled|##|Device is insecure, selinux security is disabled.</string>
+        <string name="MTD_FAKE_CORPORATE_WIFI">Fake Corporate Wifi|##|Fake corporate wifi detected.</string>
+        <string name="MTD_DEVICE_ACCESSIBILITY_OPTION">Device Accessibility Option|##|Device is insecure, accessibility option is enabled.</string>
+        <string name="MTD_DEVICE_ACCESSIBILITY_OPTION_WPN">Device Accessibility Option|##|Device is insecure, accessibility option is enabled for package name _APP_PACKAGE__</string>
+        <string name="MTD_APP_FROM_UNKNOWN_SOURCE">App From Unknown Source|##|Apps from unknown sources are detected.</string>
+        <string name="MTD_APP_FROM_UNKNOWN_SOURCE_WPN">App From Unknown Source|##|The app with the package name __APP_PACKAGE__ is installed from unknown source.</string>
+        <string name="MTD_EXTERNAL_DISPLAY">External Display|##|External Display detected.</string>
+        <string name="MTD_SAFETY_NET_MISSING">Missing Safety Net|##|Safety Net is missing.</string>
+        <string name="MTD_PHA_DISABLED">PHA is Disabled|##|Protection from Potentially Harmful Applications is disabled.</string>
+</resources>

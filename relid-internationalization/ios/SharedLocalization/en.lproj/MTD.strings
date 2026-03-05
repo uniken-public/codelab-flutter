@@ -1,0 +1,37 @@
+/*
+ * MTDLocalizable.strings
+ * RELIDXCFramework
+ *
+ * Created on 01/11/2025
+ * Copyright © 2025 Uniken. All rights reserved.
+ *
+ * This file contains localized strings for MTD (Mobile Threat Detection)
+ * and Rel_ID (Authentication) sections used in RELIDXCFramework.
+ *
+ * These strings will be used with fallback from IL Language Messages JSON.
+ */
+
+// ============================================
+// MARK: - MTD (Mobile Threat Detection)
+// ============================================
+
+"MTD_JAIL_BROKEN_iOS" = "Rooted Device |##| Device is jailbroken.";
+"MTD_OUT_OF_DATE_OS" = "OS Outdated |##| Device is insecure, OS is outdated.";
+"MTD_SCREEN_PASS_CODE_NOT_PRESENT" = "Screen Passcode Not Present |##| Device is insecure, passcode not enabled.";
+"MTD_APP_TAMPERED" = "App Tampering |##| This app is tampered and not safe to proceed.";
+"MTD_SCREEN_SHOT_CAPTURED" = "sud Screenshot Captured |##| User took a screenshot.";
+"MTD_REMOTE_ACCESS" = "Screen Recording |##| The device screen might be getting captured and recorded.";
+"MTD_EMULATED_ENVIRONMENT" = "Emulated Environment |##| The application is running in an emulated environment.";
+"MTD_GENERIC_SYSTEM_THREAT" = "System Threat|##|System Threat is detected.";
+"MTD_NETWORK_MITM" = "Network MITM |##| MITM is detected on connected network.";
+"MTD_ROUGE_WIFI" = "Rogue Network |##| Rouge WiFi detected on connected network.";
+"MTD_PINEAPPLE_WIFI" = "Pineapple Wifi |##| Pineapple WiFi detected on connected network.";
+"MTD_CAPTIVE_PORTAL" = "Captive Portal |##| Captive portal is detected on connected network.";
+"MTD_NETWORK_SSL_STRIPPING" = "Network SSL Stripping |##| SSL stripping is detected on connected network.";
+"MTD_NETWORK_CONTENT_MANIPULATION" = "Network Content Manipulation |##| Content manipulation detected on connected network.";
+"MTD_WIFI_CONNECTION" = "Blacklisted Network |##| Connected wifi network is insecure. This network is blacklisted by the enterprise.";
+"MTD_UNSECURE_WIFI" = "Unsecured Access Point |##| Device is connected to open or unsecure WiFi.";
+"MTD_VPN_CONNECTION" = "VPN Connection |##| A VPN connection has been detected on this device.";
+"MTD_GENERIC_NETWORK_THREAT" = "Network Threat|##|Network Threat is detected";
+"MTD_GENERIC_NETWORK_THREAT_SSID" = "Network Threat|##|Network Threat is detected on __NETWORK_SSID__";
+"MTD_ACTIVE_CALL_DETECTED" = "Active Call Detection |##| Active call has been detected on your device.";

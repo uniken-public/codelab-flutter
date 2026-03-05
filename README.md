@@ -49,3 +49,6 @@ Build MFA with post-login notification history.
 
 ### [Device Management Flow](https://codelab.uniken.com/codelabs/flutter-device-management-flow/index.html?index=..%2F..index#0)
 Build MFA with post-login device management.
+
+### [Internationalization Flow](https://codelab.uniken.com/codelabs/flutter-internationalization-flow/index.html?index=..%2F..index#0)
+Build MFA with internationalization.

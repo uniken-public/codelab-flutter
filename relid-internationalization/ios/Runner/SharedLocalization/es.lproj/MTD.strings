@@ -1,0 +1,37 @@
+/*
+ * MTDLocalizable.strings
+ * RELIDXCFramework
+ *
+ * Created on 01/11/2025
+ * Copyright © 2025 Uniken. All rights reserved.
+ *
+ * This file contains localized strings for MTD (Mobile Threat Detection)
+ * and Rel_ID (Authentication) sections used in RELIDXCFramework.
+ *
+ * These strings will be used with fallback from IL Language Messages JSON.
+ */
+
+// ============================================
+// MARK: - MTD (Mobile Threat Detection)
+// ============================================
+
+"MTD_JAIL_BROKEN_iOS" = "Dispositivo Rooteado |##| El dispositivo tiene jailbreak.";
+"MTD_OUT_OF_DATE_OS" = "SO Desactualizado |##| El dispositivo no es seguro, el SO está desactualizado.";
+"MTD_SCREEN_PASS_CODE_NOT_PRESENT" = "Código de Pantalla No Presente |##| El dispositivo no es seguro, código de acceso no habilitado.";
+"MTD_APP_TAMPERED" = "Alteración de la App |##| Esta aplicación ha sido alterada y no es segura para continuar.";
+"MTD_SCREEN_SHOT_CAPTURED" = "Captura de Pantalla Detectada |##| El usuario tomó una captura de pantalla.";
+"MTD_REMOTE_ACCESS" = "Grabación de Pantalla |##| La pantalla del dispositivo podría estar siendo capturada y grabada.";
+"MTD_EMULATED_ENVIRONMENT" = "Entorno Emulado |##| La aplicación se está ejecutando en un entorno emulado.";
+"MTD_GENERIC_SYSTEM_THREAT" = "Amenaza del Sistema|##|Se ha detectado una amenaza del sistema.";
+"MTD_NETWORK_MITM" = "MITM en la Red |##| Se ha detectado un ataque MITM en la red conectada.";
+"MTD_ROUGE_WIFI" = "Red Maliciosa |##| Se detectó WiFi malicioso en la red conectada.";
+"MTD_PINEAPPLE_WIFI" = "WiFi Pineapple |##| Se detectó WiFi Pineapple en la red conectada.";
+"MTD_CAPTIVE_PORTAL" = "Portal Cautivo |##| Se detectó un portal cautivo en la red conectada.";
+"MTD_NETWORK_SSL_STRIPPING" = "Eliminación de SSL en la Red |##| Se detectó eliminación de SSL en la red conectada.";
+"MTD_NETWORK_CONTENT_MANIPULATION" = "Manipulación de Contenido en la Red |##| Se detectó manipulación de contenido en la red conectada.";
+"MTD_WIFI_CONNECTION" = "Red en Lista Negra |##| La red WiFi conectada no es segura. Esta red está en la lista negra de la empresa.";
+"MTD_UNSECURE_WIFI" = "Punto de Acceso No Seguro |##| El dispositivo está conectado a una red WiFi abierta o no segura.";
+"MTD_VPN_CONNECTION" = "Conexión VPN |##| Se ha detectado una conexión VPN en este dispositivo.";
+"MTD_GENERIC_NETWORK_THREAT" = "Amenaza de Red|##|Se ha detectado una amenaza de red";
+"MTD_GENERIC_NETWORK_THREAT_SSID" = "Amenaza de Red|##|Se ha detectado una amenaza de red en __NETWORK_SSID__";
+"MTD_ACTIVE_CALL_DETECTED" = "Llamada Activa Detectada |##| Se ha detectado una llamada activa en su dispositivo.";
